@@ -8,7 +8,7 @@ This containt an Rmarkdown of a
 * The goal of the analysis was to show understanding of the statistical methods employed.
 
 ## [fqcount.py](https://github.com/C0RD3LL/Portfolio/blob/main/fqcount.py)
-Its a pretty basic script. It outputs: Amount of reads, total bases, and an average of bases per read.
+When a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
 
 (It was created as a simple way for me to gauge the size of fastq files.)
 
