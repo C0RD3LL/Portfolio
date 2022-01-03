@@ -7,6 +7,10 @@ This containt an Rmarkdown of a
 * Analysis of the data was done mainly through DESeq2 and supporting packages. 
 * The goal of the analysis was to show understanding of the statistical methods employed.
 
+
+[In case the first link doesn't work](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
+
+
 ## Project tres
 ### Dance party
 * initate 
