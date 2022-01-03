@@ -7,6 +7,13 @@ This containt an Rmarkdown of a
 * Analysis of the data was done mainly through DESeq2 and supporting packages. 
 * The goal of the analysis was to show understanding of the statistical methods employed.
 
+## Project tres
+### Dance party
+* initate 
+* protocal
+* dance 
+* party 
+
 ## [fqcount.py](https://github.com/C0RD3LL/Portfolio/blob/main/fqcount.py)
 When a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
 
@@ -19,10 +26,3 @@ When a fastq file is inputed the script will output: Amount of reads, total base
 ```
 python3 fqcount.py <../example/directory.fastq>
 ```
-
-## Project tres
-### Dance party
-* initate 
-* protocal
-* dance 
-* party 
