@@ -7,11 +7,12 @@
 * hello? 
 
 ## fqcount.py 
-### This is how we do it 
-* it's firday night 
-* and i feel alright, 
-* the party is here 
-* on the west side 
+Its a pretty basic script; it is meant to output: Amount of reads, total bases, and an average of bases per read.
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+**Input Agruement** 
+`python3 fqcount.py <../example/directory.fastq>`
 
 ## Project tres
 ### Dance party
