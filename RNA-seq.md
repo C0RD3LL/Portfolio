@@ -100,11 +100,11 @@ order to use STAR I had to run most of pipeline on Google Cloud Platform
 VM instance. The perticular instance was 16 vcpu 64 GB of RAM
 
 ``` bash
-#STAR --runThreadN 16 \
-#--runMode genomeGenerate \
-#--genomeDir ref \
-#--genomeFastaFiles ref/GRCh38.primary_assembly.genome.fa \
-#--sjdbGTFile ref/gencode.v39.annotation.gtf 
+STAR --runThreadN 16 \
+--runMode genomeGenerate \
+--genomeDir ref \
+--genomeFastaFiles ref/GRCh38.primary_assembly.genome.fa \
+--sjdbGTFile ref/gencode.v39.annotation.gtf 
 ```
 
 **Align Samples to references** The reads are paired-end so when
@@ -116,12 +116,12 @@ iterate there each sample and perform the desired task.
 ``` bash
 #for file in *1.fastq; do name=$(basename ${file} 1.fastq); do
 
-#  STAR --runMode alignReads --genomeDir ../index/ \
-#  --outSAMtype BAM SortedByCoordinate \ 
-#  --readFilesIn ${name}1.fastq ${name}2.fastq \
-#  --runThreadN 12 \
-#  --outFileNamePrefix ../mapped/${name}
-#;done
+  STAR --runMode alignReads --genomeDir ../index/ \
+  --outSAMtype BAM SortedByCoordinate \ 
+  --readFilesIn ${name}1.fastq ${name}2.fastq \
+  --runThreadN 12 \
+  --outFileNamePrefix ../mapped/${name}
+;done
 ```
 
 #### BAMs to count matrix
@@ -129,7 +129,7 @@ iterate there each sample and perform the desired task.
 Generating a count table with featureCounts. output `count.out`
 
 ``` bash
-#featureCounts -a ref/gencode.v39.annotation.gtf -o count.out -T 8 -p bams/*.bam
+featureCounts -a ref/gencode.v39.annotation.gtf -o count.out -T 8 -p bams/*.bam
 ```
 
 Once countmatirx was made there were downloaded locally and the rest of
