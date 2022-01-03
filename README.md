@@ -6,7 +6,7 @@
 * Blah blah 
 * hello? 
 
-## Project Two 
+## fqcount.py 
 ### This is how we do it 
 * it's firday night 
 * and i feel alright, 
