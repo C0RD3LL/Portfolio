@@ -13,8 +13,11 @@ Its a pretty basic script. It outputs: Amount of reads, total bases, and an aver
 (It was created as a simple way for me to gauge the size of fastq files.)
 
 ![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-03%20at%208.10.32%20AM.png)
-**Input Arguement** 
-`python3 fqcount.py <../example/directory.fastq>`
+
+### Example Argument
+```
+python3 fqcount.py <../example/directory.fastq>
+```
 
 ## Project tres
 ### Dance party
