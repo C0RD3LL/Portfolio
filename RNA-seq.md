@@ -87,10 +87,10 @@ In order to retrieve from SRA sratools command, `fasterqdump` was used
 to loop through and download all study samples.
 
 ``` bash
-#for ((i = 26; i <= 34; i++))
-#  do
-#  fasterq-dump SRR147406$i
-#done
+for ((i = 26; i <= 34; i++))
+  do
+  fasterq-dump SRR147406$i
+done
 ```
 
 FastQC MulitQC
@@ -114,7 +114,7 @@ sample to the reference in a effiecent manner I write a for loop to
 iterate there each sample and perform the desired task.
 
 ``` bash
-#for file in *1.fastq; do name=$(basename ${file} 1.fastq); do
+for file in *1.fastq; do name=$(basename ${file} 1.fastq); do
 
   STAR --runMode alignReads --genomeDir ../index/ \
   --outSAMtype BAM SortedByCoordinate \ 
