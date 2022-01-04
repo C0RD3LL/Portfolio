@@ -8,7 +8,7 @@ This containt an Rmarkdown of a
 * The goal of the analysis was to show understanding of the statistical methods employed.
 
 
-[In case the first link doesn't work](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
+In case the first link doesn't work:[Click Here](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
 
 
 ## Project tres
