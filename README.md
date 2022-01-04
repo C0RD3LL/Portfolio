@@ -19,7 +19,7 @@ In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Po
 * party 
 
 ## [fqcount.py](https://github.com/C0RD3LL/Portfolio/blob/main/fqcount.py)
-When a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
+Python script, that when a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
 
 (I created it becuase it was a simple way to gauge the size of fastq files.)
 
