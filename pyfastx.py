@@ -7,20 +7,21 @@ import sys
 from datetime import datetime
 import pyfastx
 import psutil
-#############################
-
-startTime = datetime.now()
-
+############################
 fastq = sys.argv[1]
-
-fq = pyfastx.Fastq(fastq)
-
+#############################
 #Get memory used in GBs 
 pid = os.getpid()
 python_process = psutil.Process(pid)
-memoryUse = python_process.memory_info()[0]/2.**30  
+memoryUse = python_process.memory_info()[0]/2.**30 
+#Time
+startTime = datetime.now()
+#pyfastx.Fastq
+fq = pyfastx.Fastq(fastq)
 
 
+
+#Results
 print("Total Reads  :"len(fq))
 print("Total Bases  :"fq.size)
 print("Base per Read:"fq.avglen)
