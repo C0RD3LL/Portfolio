@@ -1,6 +1,6 @@
 # Cordell Browne's Portfolio
 
-## Differential Expression Analysis.
+## [RNA-Seq Analysis.](https://helpme.tiiny.site)
 This containt an Rmarkdown of a
 
 * The begining shows that script thats waws used to generate a counttable. Packages like SRAtools, STAR, and feature count were highlighted.
