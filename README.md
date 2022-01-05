@@ -1,7 +1,7 @@
 # Cordell Browne's Portfolio
 
 ## [RNA-Seq Analysis.](https://c0rd3ll.github.io/RNAseq/)
-This containt an Rmarkdown of a
+This containt an Rmarkdown of a An important analysis question is the quantification and statistical inference of systematic changes between conditions, as compared to within-condition variability. The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions.
 
 * The begining shows that script thats waws used to generate a counttable. Packages like SRAtools, STAR, and feature count were highlighted.
 * Analysis of the data was done mainly through DESeq2 and supporting packages. 
