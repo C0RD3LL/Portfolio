@@ -1,6 +1,6 @@
 # Cordell Browne's Portfolio
 
-## [RNA-Seq Analysis.](https://helpme.tiiny.site)
+## [RNA-Seq Analysis.](https://c0rd3ll.github.io/RNAseq/)
 This containt an Rmarkdown of a
 
 * The begining shows that script thats waws used to generate a counttable. Packages like SRAtools, STAR, and feature count were highlighted.
