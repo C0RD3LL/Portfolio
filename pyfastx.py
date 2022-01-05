@@ -8,13 +8,6 @@ from datetime import datetime
 import pyfastx
 import psutil
 #############################
-###########Help##############
-
-if sys.argv[1] == '-h' or sys.argv[1] == '--help':
-    print(" \n ¯\_(ツ)_/¯ \n") 
-    quit() 
-
-#############################
 
 startTime = datetime.now()
 
