@@ -34,3 +34,4 @@ Python script, that when a fastq file is inputed the script will output: Amount 
 ```
 python3 fqcount.py <../example/directory.fastq>
 ```
+Thanks for stopping by!
