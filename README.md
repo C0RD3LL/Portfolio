@@ -36,7 +36,8 @@ Python script, that when a fastq file is inputed the script will output: Amount 
 python3 fqcount.py <../example/directory.fastq>
 ```
 **Improvements**
-I looked for ways to imporove the code and did it with a simple command provide by the pyfastx package. This inspired the benchmarking portion of the portfolio. 
+
+I looked for ways to imporove the code and did it with a simple command provided by the pyfastx package. This inspired the benchmarking portion of the portfolio. 
 ![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.19.54%20PM.png)
 
 
