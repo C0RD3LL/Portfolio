@@ -30,14 +30,14 @@ Python script, that when a fastq file is inputed the script will output: Amount 
 (I created it becuase it was a simple way to gauge the size of fastq files.)
 
 
-![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-03%20at%208.10.32%20AM.png)
+![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.19.41%20PM.png)
 ### Example Argument
 ```
 python3 fqcount.py <../example/directory.fastq>
 ```
 **Improvements**
 I looked for ways to imporove the code and did it with a simple command provide by the pyfastx package. This inspired the benchmarking portion of the portfolio. 
-![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.14.08%20PM.png)
+![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.19.54%20PM.png)
 
 
 Thanks for stopping by!
