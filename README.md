@@ -24,7 +24,7 @@ python3 dance The package DESeq2 provides
 
 The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions.
 
-## [fqcount.py](https://github.com/C0RD3LL/Portfolio/blob/main/fqcount.py)
+## [Benchmark Scripts](https://github.com/C0RD3LL/Portfolio/tree/main/Benchmark%20scripts)
 Python script, that when a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
 
 (I created it becuase it was a simple way to gauge the size of fastq files.)
