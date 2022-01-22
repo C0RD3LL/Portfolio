@@ -3,11 +3,12 @@
 Welcome, all of my projects are hyperlinked to the headers below. Supporting details for each project are listed below their respective header.
 
 ## [RNA-Seq Analysis.](https://c0rd3ll.github.io/RNAseq/)
-This containt an Rmarkdown of a An important analysis question is the quantification and statistical inference of systematic changes between conditions, as compared to within-condition variability. The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions.
+The link contains an rmarkdown of bulk-RNA-Seq analysis on Oral squamous cell carinoma. It is seperated into Four distinct phases and answers questions like the following: 
 
-* The begining shows that script thats waws used to generate a counttable. Packages like SRAtools, STAR, and feature count were highlighted.
-* Analysis of the data was done mainly through DESeq2 and supporting packages. 
-* The goal of the analysis was to show understanding of the statistical methods employed.
+* Preprocessing, I show the script that was used to develop the input data (count matrix) 
+* Exploratory data anlysis, how does normaliztion and transformation affect the data? 
+* Differential Expression (DE) , What genes are most regualted, what is statiscally important? 
+* Co-expression Analysis (Subcategory of DE), what genes work together in hubs? Their expression levels? 
 
 
 In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
