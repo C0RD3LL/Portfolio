@@ -1,6 +1,6 @@
 Hello
 
-|         File     |  Size|pyfastx      || Samtools     || bioperl    || Biopython ||
+|         File     |  Size|pyfastx      || Samtools    || bioperl    ||Biopython   ||
 |          ^       |     ^|time |memory  | time |memory |time |memory |time |memory |
 |------------------|------|-----|--------|------|-------|-----|-------|-----|-------|
 |CRR270048_r2.fastq|83 GB |1020 |memory  | time |memory |time |memory |time |memory |
