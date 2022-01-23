@@ -1,7 +1,8 @@
 Hello
 
 |         File     |  Size|pyfastx      || Samtools    || bioperl    ||Biopython   ||
-|          ^       |     ^|time |memory  | time |memory |time |memory |time |memory |
+|==================|====================||=============||============||============||
+|                  |      |time |memory  | time |memory |time |memory |time |memory |
 |------------------|------|-----|--------|------|-------|-----|-------|-----|-------|
 |CRR270048_r2.fastq|83 GB |1020 |memory  | time |memory |time |memory |time |memory |
 |CRR270049_f1.fastq|44 GB |time |memory  | time |memory |time |memory |time |memory |
@@ -14,15 +15,4 @@ Hello
 |CRR069621_r2.fastq|120 MB|time |memory  | time |memory |time |memory |time |memory |
 
 
-
-|              | Header 1        | Header 2                       || Header 3                       ||
-|              | Subheader 1     | Subheader 2.1  | Subheader 2.2  | Subheader 3.1  | Subheader 3.2  |
-|==============|-----------------|----------------|----------------|----------------|----------------|
-| Row Header 1 | 3row, 3col span                                 ||| Colspan only                   ||
-| Row Header 2 |       ^                                         ||| Rowspan only   | Cell           |
-| Row Header 3 |       ^                                         |||       ^        | Cell           |
-| Row Header 4 |  Row            |  Each cell     |:   Centered   :| Right-aligned :|: Left-aligned  |
-:              :  with multiple  :  has room for  :   multi-line   :    multi-line  :  multi-line    :
-:              :  lines.         :  more text.    :      text.     :         text.  :  text.         :
-|--------------|-----------------|----------------|----------------|----------------|----------------|
-
+                
