@@ -14,7 +14,7 @@ The link contains an rmarkdown of bulk-RNA-Seq analysis on Oral squamous cell ca
 In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
 
 
-## [Benchmarking](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livescience.com%2F54258-donkeys.html&psig=AOvVaw0teG2GWPcdSjzDhlSpdLUQ&ust=1641435693727000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIin_s3GmfUCFQAAAAAdAAAAABAD)
+## [Benchmarking](https://c0rd3ll.github.io/benchmark_page)
 An important analysis question is the quantification and statistical inference of systematic changes between conditions, as compared to within-condition variability. The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions.[Benchmark scripts](https://github.com/C0RD3LL/Portfolio/tree/main/Benchmark%20scripts)
 * initate The package DESeq2 provides methods to test for differential expression 
 * protocal
