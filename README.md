@@ -15,7 +15,7 @@ In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Po
 
 
 ## [Benchmarking](https://c0rd3ll.github.io/benchmark_page)
-Benchmarking different tools/method on their abilities to generate fastq indexes. It compares time in seconds and memory of each method over total bases in file and actual file size.
+Benchmarking different tools/method on their abilities to generate fastq indexes. This compares time in seconds and memory usage of the tools over amount of bases in file and file size in bytes.
 
 * The benchmarking was done bewteen samtools, pyfastx, biopython, and bioperl's Index::Fastq module.
 
