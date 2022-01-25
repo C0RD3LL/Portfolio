@@ -1,18 +1,8 @@
 Hello
 
-```html
-<h2>Example of code</h2>
+```
+The scripts aren't that flashy or complicated, they got the job done. The only one I would reccomend looking at is benchmark_script.sh which excuted the entire benchmarking.
 
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
 ```
 
 
