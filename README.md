@@ -11,7 +11,6 @@ This RNA-Seq workflow aims to identify which genes and biological processes may 
   * Differential Expression: What genes are most regulated, what is statically important?
   * Co-expression Analysis: Assessing, what genes work together in hubs? What are their expression levels? 
 
-In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
 
 
 ## [Benchmarking](https://c0rd3ll.github.io/benchmark_page)
