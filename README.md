@@ -3,7 +3,7 @@
 Welcome, all of my projects are hyperlinked to the headers below. Supporting details for each project are listed below their respective header.
 
 ## [RNA-Seq Analysis.](https://c0rd3ll.github.io/RNAseq/)
-This is an RNA-Seq workflow that aims to identify which genes and biological processes may be important for our condition of interest (Oral squamous cell carcinoma, metastasis vs no-metastasis). Starting with the generation of the reference genome, the workflow covers how the data was prepared for exploratory data analysis and Differential expression (DE) analysis (DE includes co-expression). The R package, DESeq2 and other supporting ones were an integral part for visualization of the results, helping better understand the characteristics of the data and also which significant differentially expressed genes could be identified. 
+This RNA-Seq workflow aims to identify which genes and biological processes may be important for our condition of interest (Oral squamous cell carcinoma, metastasis vs no-metastasis). Starting with the generation of the reference genome, the workflow covers how the data was prepared for exploratory data analysis and Differential expression (DE) analysis (DE includes co-expression) and how it is used in those phases as well. The R package, DESeq2 and other supporting ones were an integral part for visualization of the results, helping better understand the characteristics of the data and also which significant differentially expressed genes could be identified. 
 
 * Outline of RNA Seq Workflow.
   * Preprocessing: Generating a count matrix from self-generated reference genome and sample reads (fastq)
