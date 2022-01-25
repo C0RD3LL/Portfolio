@@ -15,15 +15,11 @@ In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Po
 
 
 ## [Benchmarking](https://c0rd3ll.github.io/benchmark_page)
-An important analysis question is the quantification and statistical inference of systematic changes between conditions, as compared to within-condition variability. The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions.[Benchmark scripts](https://github.com/C0RD3LL/Portfolio/tree/main/Benchmark%20scripts)
-* initate The package DESeq2 provides methods to test for differential expression 
-* protocal
+Benchmarking different tools/method on their abilities to generate fastq indexes. It compares time in seconds and memory of each method over total bases in file and actual file size.
 
-```
-python3 dance The package DESeq2 provides 
-```
+* The benchmarking was done bewteen samtools, pyfastx, biopython, and bioperl's Index::Fastq module.
 
-The package DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions.
+The results concluded that samtools performed faster then the rest probably becuase of its higher memory usage and bioperl was signifcantly slower than others becuase and it was noted that memory was consisently between 17,000 ~ 18,000.
 
 ## [Benchmark Scripts](https://github.com/C0RD3LL/Portfolio/tree/main/Benchmark%20scripts)
 Python script, that when a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
