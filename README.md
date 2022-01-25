@@ -19,7 +19,7 @@ Benchmarking different tools/method on their abilities to generate fastq indexes
 
 * The benchmarking was done bewteen samtools, pyfastx, biopython, and bioperl's Index::Fastq module.
 
-The results concluded that samtools performed faster then the rest, most likely becuase of its high memory usage. It was also noted that bioperl was signifcantly slower to generate an index than others and its memory was consisently between 17,000 ~ 18,000 regardless of file size.
+The results concluded that samtools performed faster then the rest, most likely becuase of its high memory usage. It was also noted that bioperl was signifcantly slower to generate an index than others and its memory usage was consisently between 17,000 ~ 18,000 regardless of file size.
 
 ## [Benchmark Scripts](https://github.com/C0RD3LL/Portfolio/tree/main/Benchmark%20scripts)
 Python script, that when a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read.
