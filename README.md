@@ -3,13 +3,13 @@
 Welcome, all of my projects are hyperlinked to the headers below. Supporting details for each project are listed below their respective header.
 
 ## [RNA-Seq Analysis.](https://c0rd3ll.github.io/RNAseq/)
-This is a RNA-Seq workflow that aims to identify which genes and biological processes may be important for our condition of interest (Oral squamous cell carinoma. metastisis vs no-metastisis).Starting with the counts for each gene, the course will cover how to prepare data for DE analysis, assess the quality of the count data, and identify outliers and detect major sources of variation in the data. The DESeq2 R package will be used to model the count data using a negative binomial model and test for differentially expressed genes. Visualization of the results with heatmaps and volcano plots will be performed and the significant differentially expressed genes will be identified and saved.
+This is an RNA-Seq workflow that aims to identify which genes and biological processes may be important for our condition of interest (Oral squamous cell carcinoma, metastasis vs no-metastasis). Starting with the generation of the reference genome, the workflow covers how the data was prepared for exploratory data analysis and Differential expression (DE) analysis (DE includes co-expression). The R package, DESeq2 and other supporting ones were an integral part for visualization of the results, helping better understand the characteristics of the data and also which significant differentially expressed genes could be identified. 
 
 * Outline of RNA Seq Workflow.
-  * Preprocessing: Generating a countmatrix from self-generated reference genome and sample reads (fastq)
-  * Exploratory data anlysis: Answering question like, how does normaliztion and transformation affect the data? 
-  * Differential Expression: What genes are most regualted, what is statiscally important? 
-  * Co-expression Analysis: Assessing, what genes work together in hubs? Their expression levels? 
+  * Preprocessing: Generating a count matrix from self-generated reference genome and sample reads (fastq)
+  * Exploratory data analysis: Answering question like, how does normalization and transformation affect the data?
+  * Differential Expression: What genes are most regulated, what is statically important?
+  * Co-expression Analysis: Assessing, what genes work together in hubs? What are their expression levels? 
 
 In case the first link doesn't work:  [Click Here](https://github.com/C0RD3LL/Portfolio/blob/main/RNA-seq.md)
 
