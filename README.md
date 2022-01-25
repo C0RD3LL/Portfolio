@@ -21,10 +21,10 @@ Benchmarking different tools/method on their abilities to generate fastq indexes
 The results concluded that samtools performed faster then the rest, most likely becuase of its high memory usage. It was also noted that bioperl was signifcantly slower to generate an index than others and its memory usage was kept in a narrow range and consisently low (17,000 ~ 18,000) regardless of file size.
 
 ## [Benchmark Scripts](https://github.com/C0RD3LL/Portfolio/tree/main/Benchmark%20scripts)
-Colection of scripts that were made to excute the benchmarking project.
+Collection of scripts that were made to execute the benchmarking project.
 
 
-The benchmarking was inspired by a python script, that when a fastq file is inputed the script will output: Amount of reads, total bases, and an average of bases per read. (it was a simple way to gauge the size of fastq files.)
+The benchmarking was inspired by a python script, that when a fastq file is inputted the script will output Number of reads, total bases, and an average of bases per read. (It was a simple way to gauge the size of fastq files.)
 
 
 ![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.19.41%20PM.png)
@@ -34,7 +34,7 @@ python3 fqcount.py <../example/directory.fastq>
 ```
 **Improvements**
 
-Than I imporoved the code with a simple command provided by pyfastx ability to index fastqs for quick access. This inspired me to look at other softwares that can index fastq files and how the index could be used. The image below is to display the progression/improvment of the idea that was initiated with fqcount.py. 
+I improved the code with pyfastx’s ability to index fastqs for quick access. This inspired me to look at other software’s that can index fastq files and how the index could be used. The image below is to display the progression/improvement of the idea that was initiated with fqcount.py. 
 ![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.19.54%20PM.png)
 
 
