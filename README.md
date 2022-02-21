@@ -39,5 +39,5 @@ I improved the code with pyfastx’s ability to index fastqs for quick access. T
 
 ## Other 
 
-[EDA w/ Python](https://htmlpreview.github.io/?https://github.com/C0RD3LL/Portfolio/blob/main/Predicting%20Molecular%20Properties%20(EDA)%20.html)
+[EDA w/ Python](https://c0rd3ll.github.io/feburary_21_2022_12-24/)
 Thanks for stopping by!
