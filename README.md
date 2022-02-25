@@ -40,4 +40,8 @@ I improved the code with pyfastx’s ability to index fastqs for quick access. T
 ## Other 
 
 [EDA w/ Python](https://c0rd3ll.github.io/feburary_21_2022_12-24/)
+
+[Machine learning(SVM & NN) predict Market Volatility](https://colab.research.google.com/drive/1tIQA-mWIla0jw8bFNOxVSscBukmpVufx?usp=sharing)
+
+
 Thanks for stopping by!
