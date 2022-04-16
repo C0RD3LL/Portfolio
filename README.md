@@ -37,11 +37,5 @@ python3 fqcount.py <../example/directory.fastq>
 I improved the code with pyfastx’s ability to index fastqs for quick access. This inspired me to look at other software’s that can index fastq files and how the index could be used. The image below is to display the progression/improvement of the idea that was initiated with fqcount.py. 
 ![alt text](https://github.com/C0RD3LL/Portfolio/blob/main/extra/Screen%20Shot%202022-01-07%20at%205.19.54%20PM.png)
 
-## Other 
-
-[EDA w/ Python](https://c0rd3ll.github.io/feburary_21_2022_12-24/)
-
-[Machine learning(SVM & NN) predict Market Volatility](https://colab.research.google.com/drive/1tIQA-mWIla0jw8bFNOxVSscBukmpVufx?usp=sharing)
-
 
 Thanks for stopping by!
