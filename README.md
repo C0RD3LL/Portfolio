@@ -2,7 +2,7 @@
 
 Welcome, all of my projects are hyperlinked to the headers below. Supporting details for each project are listed below their respective header.
 
-## [RNA-Seq Analysis.](https://c0rd3ll.github.io/portfolio-0.01/index.html)
+## [RNA-Seq Analysis.](https://c0rd3ll.github.io/portfolio-0.01/rnaseqv1/rna-seq.html)
 This RNA-Seq workflow aims to identify which genes and biological processes may be important for our condition of interest (Oral squamous cell carcinoma, metastasis vs no-metastasis). Starting with the generation of the reference genome, the workflow covers how the data was prepared for exploratory data analysis and Differential expression (DE) analysis (DE includes co-expression) and how it is used in those phases as well. The R package, DESeq2 and other supporting ones were an integral part for visualization of the results, helping better understand the characteristics of the data and also which significant differentially expressed genes could be identified. 
 
 * Outline of RNA Seq Workflow.
@@ -13,7 +13,7 @@ This RNA-Seq workflow aims to identify which genes and biological processes may 
 
 
 
-## [Benchmarking](https://c0rd3ll.github.io/benchmark_page)
+## [Benchmarking](https://c0rd3ll.github.io/portfolio-0.01/bench/benchmark.html)
 Benchmarking different tools/method on their abilities to generate fastq indexes. This compares time in seconds and memory usage of the tools over amount of bases in file and file size in bytes.
 
 * The benchmarking was done bewteen samtools, pyfastx, biopython, and bioperl's Index::Fastq module.
